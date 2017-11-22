@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    private String lenguajeProgramacion[]=new String[]{"Java","PHP","Python","JavaScript","Ruby","C",
-            "Go","Perl","Pascal"};
+
+    private String lenguajeProgramacion[];
 
     private Integer[] imgid={
             R.drawable.java,
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        lenguajeProgramacion=getResources().getStringArray(R.array.opcionesLista);
         ListAdapterPractica adapter=new ListAdapterPractica(this,lenguajeProgramacion,imgid);
         lista=(ListView)findViewById(R.id.mi_lista);
         lista.setAdapter(adapter);

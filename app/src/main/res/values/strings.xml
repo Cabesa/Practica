@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Practica</string>
+    <string-array name="opcionesLista">
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Ruby</item>
+        <item>C</item>
+        <item>Go</item>
+        <item>Perl</item>
+        <item>Pascal</item>
+    </string-array>
 </resources>
