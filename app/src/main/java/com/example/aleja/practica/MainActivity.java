@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 
 
     private String lenguajeProgramacion[];
-
+    private String descripciones[];
     private Integer[] imgid={
             R.drawable.java,
             R.drawable.php,
@@ -31,7 +31,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         lenguajeProgramacion=getResources().getStringArray(R.array.opcionesLista);
-        ListAdapterPractica adapter=new ListAdapterPractica(this,lenguajeProgramacion,imgid);
+        descripciones=getResources().getStringArray(R.array.descripcionesLista);
+        ListAdapterPractica adapter=new ListAdapterPractica(this,lenguajeProgramacion,descripciones,imgid);
         lista=(ListView)findViewById(R.id.mi_lista);
         lista.setAdapter(adapter);
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -15,12 +15,13 @@ public class ListAdapterPractica extends ArrayAdapter<String> {
 
     private final Activity context;
     private final String[] itemname;
+    private final String[] description;
     private final Integer[] integers;
 
-    public ListAdapterPractica(Activity context, String[] itemname, Integer[] integers) {
+    public ListAdapterPractica(Activity context, String[] itemname, String[] description, Integer[] integers) {
         super(context, R.layout.fila_lista, itemname);
         // TODO Auto-generated constructor stub
-
+        this.description=description;
         this.context=context;
         this.itemname=itemname;
         this.integers=integers;
@@ -37,7 +38,7 @@ public class ListAdapterPractica extends ArrayAdapter<String> {
 
         txtTitle.setText(itemname[posicion]);
         imageView.setImageResource(integers[posicion]);
-        etxDescripcion.setText("Description "+itemname[posicion]);
+        etxDescripcion.setText(description[posicion]);
 
         return rowView;
     }
