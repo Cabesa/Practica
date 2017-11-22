@@ -1,29 +1,45 @@
 package com.example.aleja.practica;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
+
+    private String lenguajeProgramacion[]=new String[]{"Java","PHP","Python","JavaScript","Ruby","C",
+            "Go","Perl","Pascal"};
+
+    private Integer[] imgid={
+            R.drawable.java,
+            R.drawable.php,
+            R.drawable.python,
+            R.drawable.javascript,
+            R.drawable.ruby,
+            R.drawable.c,
+            R.drawable.go,
+            R.drawable.perl,
+            R.drawable.pascal
+    };
+
+    private ListView lista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void prueba1()
-    {
 
-    }
-    public void prueba2()
-    {
-
-    }
-    public void prueba3()
-    {
-
-    }
-    public void prueba4()
-    {
-
+        ListAdapterPractica adapter=new ListAdapterPractica(this,lenguajeProgramacion,imgid);
+        lista=(ListView)findViewById(R.id.mi_lista);
+        lista.setAdapter(adapter);
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String Slecteditem= lenguajeProgramacion[+position];
+                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
