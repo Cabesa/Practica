@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Practica</string>
+    <string name="Pantalla2" />
+    <string name="Pantalla2" />
+    <string name="Pantalla3" />
     <string-array name="opcionesLista">
         <item>Java</item>
         <item>PHP</item>

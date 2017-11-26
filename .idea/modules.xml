@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Practica.iml" filepath="$PROJECT_DIR$/Practica.iml" />
+      <module fileurl="file://C:\Users\Pivo\Desktop\practicapmdm\Practica.iml" filepath="C:\Users\Pivo\Desktop\practicapmdm\Practica.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Pivo\Desktop\practicapmdm\app\app.iml" filepath="C:\Users\Pivo\Desktop\practicapmdm\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practicapmdm.iml" filepath="$PROJECT_DIR$/practicapmdm.iml" />
     </modules>
   </component>
 </project>
