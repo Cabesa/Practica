@@ -8,56 +8,62 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
             android:id="@+id/botonpantalla1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="88dp"
-            android:layout_toLeftOf="@+id/imageView"
-            android:layout_toStartOf="@+id/imageView"
+            android:layout_alignLeft="@+id/botonpantalla3"
+            android:layout_alignStart="@+id/botonpantalla3"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="11dp"
             android:text="pantalla2" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/botonpantalla3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imageView"
-            android:layout_toEndOf="@+id/imageView"
-            android:layout_toRightOf="@+id/imageView"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
             android:text="PANTALLA3" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/botonpantalla1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="93dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="126dp"
+            android:layout_marginStart="126dp"
             app:srcCompat="@drawable/python" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="19dp"
-            android:layout_toLeftOf="@+id/imageView"
-            android:layout_toStartOf="@+id/imageView" />
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@+id/botonspinner"
+            android:layout_toStartOf="@+id/botonspinner" />
 
         <Button
-            android:id="@+id/btn3"
+            android:id="@+id/botonspinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/spinner"
-            android:layout_marginLeft="61dp"
-            android:layout_marginStart="61dp"
-            android:layout_toEndOf="@+id/spinner"
-            android:layout_toRightOf="@+id/spinner"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
             android:text="Button"
             tools:text="btn" />
     </RelativeLayout>

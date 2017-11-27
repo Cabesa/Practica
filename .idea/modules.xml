@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Practica.iml" filepath="$PROJECT_DIR$/Practica.iml" />
-      <module fileurl="file://C:\Practica\Practica.iml" filepath="C:\Practica\Practica.iml" />
+      <module fileurl="file://C:\practica\Practica.iml" filepath="C:\practica\Practica.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Practica\app\app.iml" filepath="C:\Practica\app\app.iml" />
+      <module fileurl="file://C:\practica\app\app.iml" filepath="C:\practica\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica.iml" filepath="$PROJECT_DIR$/practica.iml" />
     </modules>
   </component>
 </project>

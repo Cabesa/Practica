@@ -16,11 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".Main2Activity"></activity>
-=======
-        <activity android:name=".Productos"></activity>
->>>>>>> origin/master
     </application>
 
 </manifest>
