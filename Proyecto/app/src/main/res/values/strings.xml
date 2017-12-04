@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Restaurante McStudium King</string>
     <string name="bienvenida">Bienvenido a la aplicación de McStudium King</string>
     <string name="btnEntrar">Entrar</string>
     <string name="btnFotos">Fotos</string>
@@ -51,9 +52,9 @@
 
     <string name="receta">Hamburguesa Completa</string>
 
-    <string name="app_name">Restaurante McStudium King</string>
-    <string name="bienvenida">Bienvenido a la aplicación de MC</string>
-    <string name="app_name">Restaurante McStudium King</string>
-    <string name="elegRestaurante">¿Qué restaurante desea visitár?</string>
+
+
+
+
 
 </resources>
