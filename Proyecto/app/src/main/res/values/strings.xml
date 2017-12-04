@@ -11,7 +11,7 @@
 
 
 
-    <string-array name="ingredientes"> <string-array name="sevillaLista">
+    <string-array name="sevillaLista">
         <item>Centro</item>
         <item>Alcalá de Guadaira</item>
 
@@ -42,8 +42,8 @@
             <item>Hamburguesa 100% vacuno, pan recién horneado, y ríquisima salsa mostaza.</item>
             <item>Raviolis al dente con mantequilla, relleno de queso de cabra. Salsa al gusto.</item>
             <item>Pizza margarita con tomate de la huerta, y queso cortado con mucha delicadeza.</item>
-
         </string-array>
+    <string-array name="ingredientes">
         <item> - Pan recién horneado.\n- Queso Cheddar.\n- Lechuga batavia.\n- Tomate.\n- Salsa Mostaza.</item>
         <item> - Raviolis.\n- Queso de Cabra.\n- Mantequilla.\n- Salsa Pesto.</item>
         <item> - Masa de Pizza.\n-Queso Mozzarella.\n- Tomate triturado.\n- Aceite de Oliva.\n</item>

@@ -11,7 +11,7 @@
     <string name="rdbMalaga">Malaga</string>
     <string name="receta">Full hamburger</string>
 
-    <string-array name="ingredientes"> <string-array name="sevillaLista">
+    <string-array name="sevillaLista">
         <item>Center</item>
         <item>Alcala of Guadaira</item>
 
@@ -44,6 +44,7 @@
             <item>Pizza margarita with tomato from the garden, and cheese cut very delicately.</item>
 
         </string-array>
+    <string-array name="ingredientes">
         <item> - Bread recently ovened.\n- Cheddar cheese.\n- Batavia lettuce.\n- Tomato.\n- Mustard sauce.</item>
         <item> - Ravioli.\n- Goat cheese.\n- Butter.\n- Pesto sauce.</item>
         <item> - Pizza mass.\n- Mozzarella cheese.\n- Crushed tomato.\n- Olive oil.\n</item>

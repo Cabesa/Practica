@@ -11,39 +11,33 @@
     <string name="rdbMalaga">Malaga</string>
     <string name="receta">Hamburger complet</string>
 
-    <string-array name="ingredientes"> <string-array name="sevillaLista">
+ <string-array name="sevillaLista">
         <item>Centre</item>
         <item>Alcala de Guadaira</item>
-
-
     </string-array>
 
         <string-array name="malagaLista">
             <item>Marbella</item>
-
-
-
         </string-array>
 
         <string-array name="opcionesLista">
             <item>Hamburger complet</item>
             <item>Raviolis au fromage</item>
             <item>Pizza Margarita</item>
-
         </string-array>
+
         <string-array name="descripcionesLista">
             <item>100% vache</item>
             <item>Fromage de chèvre</item>
             <item>Fromage supplémentaire</item>
-
         </string-array>
 
         <string-array name="descripcionesLargas">
             <item>Hamburger de boeuf 100%, pain fraîchement cuit et sauce à la moutarde délicieuse.</item>
             <item>Ravioli al dente au beurre, farci de fromage de chèvre. Sauce au goût.</item>
             <item>Pizza margarita à la tomate du jardin, et fromage coupé très délicatement.</item>
-
         </string-array>
+    <string-array name="ingredientes">
         <item> - Pain fraîchement cuit.\n- Fromage cheddar.\n- Laitue Batavia.\n- Tomate.\n- Sauce moutarde.</item>
         <item> - Ravioli.\n- Fromage de chèvre.\n- Beurre.\n- Sauce pesto.</item>
         <item> - Pâte à pizza\n- Fromage Mozzarella.\n- Tomate concassée.\n- Huile d'olive.\n</item>
