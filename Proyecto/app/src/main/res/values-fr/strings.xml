@@ -10,6 +10,7 @@
     <string name="rdbSevilla">Séville</string>
     <string name="rdbMalaga">Malaga</string>
     <string name="receta">Hamburger complet</string>
+    <string name="ing">Ingrédients:</string>
 
  <string-array name="sevillaLista">
         <item>Centre</item>

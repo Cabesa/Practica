@@ -35,7 +35,7 @@
             android:id="@+id/txtIngredientes"
             android:layout_width="230dp"
             android:layout_height="150dp"
-            android:layout_alignTop="@+id/imgProducto"
+            android:layout_below="@+id/txtIng"
             android:layout_toEndOf="@+id/imgProducto"
             android:layout_toRightOf="@+id/imgProducto" />
 
@@ -68,5 +68,14 @@
             android:layout_below="@+id/txtDescripcion"
             android:onClick="pulsarBuscador"
             app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <TextView
+            android:id="@+id/txtIng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imgProducto"
+            android:layout_toRightOf="@+id/imgProducto"
+            android:text="@string/ing" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
