@@ -54,7 +54,7 @@ public class Productos extends AppCompatActivity {
                 txtDescripcion.setText(descripcionesLargas[+position]);
                 txtBuscador.setText(comidas[+position]);
                 txtIngredientes.setText(ingredientesLista[+position]);
-                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
+
 
             }
         });
