@@ -24,29 +24,21 @@
             android:fontFamily="monospace"
             android:text="@string/bienvenida" />
 
-        <ImageView
-            android:id="@+id/imgBienvenido"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/txtBienvenida"
-            android:src="@drawable/restaurante_exterior" />
-
         <Button
             android:id="@+id/btnEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imgBienvenido"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:onClick="pulsarEntrar"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/buttonshape"
+            android:onClick="pulsarEntrar"
             android:shadowColor="#000000"
             android:shadowDx="-3"
             android:shadowDy="-2"
             android:shadowRadius="9"
-            android:textSize="20sp"
-            android:text="@string/btnEntrar" />
+            android:text="@string/btnEntrar"
+            android:textSize="20sp" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
