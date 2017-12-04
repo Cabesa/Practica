@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant McStudium King</string>
+    <string name="bienvenida" translatable="false">Welcome to the application of MC</string>
+    <string name="btnEntrar">Get in</string>
+    <string name="btnFotos">Photos</string>
+    <string name="btnProductos">Products</string>
+    <string name="elegProvincia">Chose a province:</string>
+    <string name="elegRestaurante">What restaurant de you want to visit?</string>
+    <string name="rdbSevilla">Seville</string>
+    <string name="rdbMalaga">Malaga</string>
+    <string name="receta">Full hamburger</string>
+
+    <string-array name="ingredientes"> <string-array name="sevillaLista">
+        <item>Center</item>
+        <item>Alcala of Guadaira</item>
+
+
+    </string-array>
+
+        <string-array name="malagaLista">
+            <item>Marbella</item>
+
+
+
+        </string-array>
+
+        <string-array name="opcionesLista">
+            <item>Full hamburger</item>
+            <item>Cheese ravioli</item>
+            <item>Margarita pizza</item>
+
+        </string-array>
+        <string-array name="descripcionesLista">
+            <item>100% bovine</item>
+            <item>Goat cheese</item>
+            <item>Extra cheese</item>
+
+        </string-array>
+
+        <string-array name="descripcionesLargas">
+            <item>100% beef burger, freshly baked bread, and delicious mustard sauce.</item>
+            <item>Ravioli al dente with butter, stuffed with goat cheese. Sauce to taste.</item>
+            <item>Pizza margarita with tomato from the garden, and cheese cut very delicately.</item>
+
+        </string-array>
+        <item> - Bread recently ovened.\n- Cheddar cheese.\n- Batavia lettuce.\n- Tomato.\n- Mustard sauce.</item>
+        <item> - Ravioli.\n- Goat cheese.\n- Butter.\n- Pesto sauce.</item>
+        <item> - Pizza mass.\n- Mozzarella cheese.\n- Crushed tomato.\n- Olive oil.\n</item>
+
+    </string-array>
+</resources>
